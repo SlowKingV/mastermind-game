@@ -1,9 +1,7 @@
 class Board
   def initialize(slots)
     @slots = slots
-  end
-
-  def add_score(num)
-    @score += num
+    @code = []
+    4.times { @code.push(rand(1..4)) }
   end
 end
